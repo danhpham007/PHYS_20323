@@ -1,0 +1,135 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{article}
+\usepackage{fancyhdr}
+\usepackage{pslatex}
+\usepackage{epsfig}
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[hidelinks]{hyperref}%renewcommand{\topfraction}{1.0}
+\renewcommand{\topfraction}{1.0}
+\renewcommand{\bottomfraction}{1.0}
+\renewcommand{\textfraction}{0.0}
+\setlength {\textwidth}{6.6in}
+\hoffset=-1.0in
+\oddsidemargin=1.00in
+\marginparsep=0.0in
+\marginparwidth=0.0in                                                                               
+\setlength {\textheight}{9.0in}
+\voffset=-1.00in
+\topmargin=1.0in
+\headheight=0.0in
+\headsep=0.00in
+\footskip=0.50in                                         
+\setcounter{page}{1}
+\begin{document}
+\def\pos{\medskip\quad}
+\def\subpos{\smallskip \qquad}
+\newfont{\nice}{cmr12 scaled 1250}
+\newfont{\name}{cmr12 scaled 1080}
+\newfont{\swell}{cmbx12 scaled 800}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     DO NOT CHANGE ANYTHING ABOVE THIS LINE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     DO NOT CHANGE ANYTHING ABOVE THIS LINE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     DO NOT CHANGE ANYTHING ABOVE THIS LINE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+{\large
+PHYS 20323/60323: Fall 2025 - LaTeX Example
+}\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\\\vskip0.25in
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section Heading
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bullet Point & Numbered list - lists can also be nested as below
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}      % first begin-----------]
+\item At time t = 0 a particle is represented by the wave function\\
+\begin{center}
+    
+
+$\Psi(x)$ = \begin{cases}
+A\frac{x}{a}, & 0 \leq x \leq a\\
+A\frac{(b-x)}{(b-a)}, & a \leq x \leq b\\
+0, & \text{otherwise}
+\end{cases} \\\\
+\end{center}
+where A, \textit{a} and \textit{b} are constants.
+\begin{enumerate}
+\item (3.3 points) Normalize $\Psi$ (i.e., find A in terms of \textit{A}, \textit{a}, and \textit{b}).
+
+\item (3.3 points) Where is the particle likely to be found at \textit{t} = 0?.
+\item (3.4 points) What is the expectation value of x?.
+\end{enumerate}
+
+
+ 
+
+\item {\bf The following questions refer to stars in the Table below.}\\
+\textit{Note: there may be multiple answers.}\\ 
+\begin{tabular}{|c|c|c|c|c|c|c|cccccc|}\hline
+Name & Mass & Luminosity & Lifetime & Temperature & Radius & Variable?\\\hline
+$\delta$ Scu. & $2.0 M_{\bigodot}$ & & $5.0 \times 10^{8}$ years & &2.0 $R_{\bigodot}$ & Y\\ \hline
+
+
+$\gamma$ Del. & $0.7 M_{\bigodot}$ & & $4.5 \times 10^{8}$ years &5000K& &N\\ \hline
+
+
+$\beta$ Cyg. & $1.3 M_{\bigodot}$ &3.5 $L_{\bigodot}$ &  & & & Y\\ \hline
+
+
+$\eta$ Car. & $60. M_{\bigodot}$ &$10^{6} L_{\bigodot}$ & $8.0 \times 10^{5}$ years & & & Y\\ \hline
+
+
+$\epsilon$ Eri.& $6.0 M_{\bigodot}$ &$10^{3} L_{\bigodot}$ & & 20,000 K &  & N\\ \hline
+
+$\alpha$ Cen. & $1.0 M_{\bigodot}$ & & & 6000 K &1.0 $R_{\bigodot}$ & N\\ \hline
+\end{tabular}\vskip 0.2in
+\begin{enumerate}
+\item (4 points) Which of these stars will produce a planetary nebula
+\item (4 points) Elements heavier than \texttt{Carbon} will be produced in which stars.
+\end{enumerate}
+\item An electron is found to be in the spin state (in the \textit{z}-basis): $x = A \dbinom{3i}{4}$
+\begin{enumerate}
+\item (5 points) Determine the possible values of \textit{A} such that the state is normalized.
+\item (5 points) Find the expectation values of the operators \textcolor{red}{$S_x$}, \textcolor{purple} {$S_y$}, \textcolor {Orange}{$S_z$}, and $\vec{S}^2$.
+\end {enumerate}
+
+The matrix representations in the \textit{z}-basis for the components of the electron spin operators are given by:\\
+
+\color{red}{${\mathbf{{S_x} = }} \text{ } \frac{\bar{h}}{2}$
+\begin{pmatrix} 
+0 & 1 \\ 1 & 0
+\end{pmatrix};}
+& 
+\color{purple}{${\mathbf{\phantom{asdfasdfasdf}{S_y} = }} \text{ } \frac{\bar{h}}{2}$
+\begin{pmatrix} 
+0 & -i \\ i & 0
+\end{pmatrix};}
+\color{orange}{${\mathbf{{\phantom{asdfasdfasdf}S_z} = }} \text{ } \frac{\bar{h}}{2}$
+\begin{pmatrix} 
+1 & 0 \\ 0 & -1
+\end{pmatrix};}
+
+\end {enumerate}
+
+
+
+\\\vskip0.25in
+Latex Example
+\end{document}
